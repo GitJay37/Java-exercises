@@ -1,0 +1,10 @@
+package Main;
+
+public class Circle extends Figura {
+
+	public static final float pi = 3.1415f;
+	
+	private float radio;
+	
+	
+}

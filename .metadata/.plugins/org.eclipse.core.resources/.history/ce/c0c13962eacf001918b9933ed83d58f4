@@ -1,0 +1,9 @@
+package com.google.courses;
+
+public class JavaCourse {
+	
+	String getTitle() {
+		return "Welcome to the Java Course";
+	}
+
+}

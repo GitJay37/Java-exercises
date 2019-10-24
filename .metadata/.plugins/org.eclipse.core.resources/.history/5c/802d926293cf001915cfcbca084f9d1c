@@ -1,0 +1,15 @@
+package Main;
+
+public class Circle {
+	
+	public float pi = 3.1415926535f;
+	public float radio = 0f;
+	
+	public Circle(float radio) {
+		this.radio = radio;
+	}
+	
+	public float area() {
+		return pi * (radio * radio);
+	}
+}

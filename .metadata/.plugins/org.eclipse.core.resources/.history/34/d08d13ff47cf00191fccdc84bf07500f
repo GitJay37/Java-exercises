@@ -1,0 +1,14 @@
+package Main;
+
+public class User {
+	public String username; 
+	//private String password;
+	
+	void greet() {
+		System.out.println("Hola mi username is: "+this.username);
+	}
+	
+	// Getter method
+	
+	
+}

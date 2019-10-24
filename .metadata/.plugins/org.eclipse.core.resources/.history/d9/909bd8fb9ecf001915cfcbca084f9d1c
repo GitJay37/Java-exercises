@@ -1,0 +1,13 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Clases Abstractas
+		
+		
+		Circle c = new Circle(9f);
+		Circle t = new Triangle(9f);
+	}
+
+}

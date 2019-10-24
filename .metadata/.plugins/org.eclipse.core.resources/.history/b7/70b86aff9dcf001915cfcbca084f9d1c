@@ -1,0 +1,12 @@
+package Main;
+
+public class Triangle extends Figura {
+	
+	private float base;
+	private float height;
+	
+	@Overide
+	public float area() {
+		return (base * height)/ 2;
+	}
+}

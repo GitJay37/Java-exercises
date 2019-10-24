@@ -1,0 +1,11 @@
+package Main;
+
+public  class Labrador implements Canino{
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

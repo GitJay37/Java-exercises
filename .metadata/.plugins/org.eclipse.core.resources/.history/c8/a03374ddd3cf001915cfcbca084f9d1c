@@ -1,0 +1,19 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Clases Abstractas
+		
+		Figura f[] = new Figura[2];
+		
+		Figura c = new Circle(9f);
+		Figura t = new Triangle(10f, 5f);
+		
+		f[0] = c; // Circle
+		f[0] = t; // Triangle
+		
+		System.out.println(c.area());
+		System.out.println(t.area());
+	}
+}

@@ -1,0 +1,23 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Sobrecarga de metodos
+		
+		Calc calculator = new Calc();
+		
+		int resultSum = calculator.suma(2, 8);
+		System.out.println("El resultado de la suma es igual a: "+resultSum);
+		
+		int resultRes = calculator.resta(2, 8);
+		System.out.println("El resultado de la suma es igual a: "+resultres);
+		
+		int resultMult = calculator.multi(2, 8);
+		System.out.println("El resultado de la suma es igual a: "+resultMult);
+		
+		int resultDiv = calculator.div(2, 8);
+		System.out.println("El resultado de la suma es igual a: "+resultDiv);
+	}
+
+}

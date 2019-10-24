@@ -1,0 +1,19 @@
+package Main;
+
+public class Dog {
+	
+	String name, raza;
+	int age;
+	
+	void eat() {
+		System.out.println("El perrito está comiendo");
+		}
+		
+	void sleep() {
+		System.out.println("El perrito está durmiendo");
+	}
+	
+	void bark() {
+		System.out.println("El perrito está ladrando");
+	}
+}

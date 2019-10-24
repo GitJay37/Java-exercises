@@ -1,0 +1,17 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Access modify:
+		
+		User user = new User();
+		User pass = new User();
+		
+		user.username = "Jay";
+		pass.pass = "miPass";
+		
+		user.greet();
+	}
+
+}

@@ -1,0 +1,9 @@
+package Main;
+
+public class User {
+	String username, password;
+	
+	void greet() {
+		System.out.println("Hola mi username is: "+this.username);
+	}
+}

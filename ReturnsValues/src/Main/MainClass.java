@@ -1,0 +1,17 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Return values triangle class:
+		
+		Triangulo triangle = new Triangulo(); // Instance
+		// Arguments
+		triangle.base = 10;
+		triangle.height = 20;
+		
+		float result = triangle.area();
+		System.out.println( result );
+	}
+
+}

@@ -1,0 +1,6 @@
+package Main;
+
+public class Triangle extends Figura {
+	
+	public float area();
+}

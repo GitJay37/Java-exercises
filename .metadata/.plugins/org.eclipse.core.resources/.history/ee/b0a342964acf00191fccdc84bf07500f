@@ -1,0 +1,20 @@
+package Main;
+
+public class User {
+	public String username; 
+	private String password;
+	
+	void greet() {
+		System.out.println("Hola mi username is: "+this.username);
+	}
+	
+	// Getter method
+	public String getPass() { // Captura el valor otorgado en el metodo setter
+		return ("Hola mi password es: "+this.password);
+	}
+	
+	// Setter method
+	public void setPass(String password) { // Acá se establece el valor en el parametro
+		this.password = password;
+	}
+}

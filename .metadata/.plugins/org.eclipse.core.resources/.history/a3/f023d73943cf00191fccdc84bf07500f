@@ -1,0 +1,11 @@
+package Main;
+
+public class Triangulo {
+
+	float base, height;
+	
+	float area() {
+		float area = (this.base * this.height) / 2;
+		return area;
+	}
+}

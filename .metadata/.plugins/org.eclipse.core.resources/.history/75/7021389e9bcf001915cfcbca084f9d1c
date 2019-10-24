@@ -1,0 +1,15 @@
+package Main;
+
+public class Dog extends Pet{
+	
+	public Dog(String name, String raza, int age) {
+		this.name = name;
+		this.raza = raza;
+		this.age = age;
+	}
+	
+	@Override
+	public void sleep() {
+		System.out.println("The Dog is sleeping");
+	}
+}

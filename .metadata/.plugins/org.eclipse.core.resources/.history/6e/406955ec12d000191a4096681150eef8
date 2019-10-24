@@ -1,0 +1,10 @@
+package com.google.clases;
+
+package java.swing.JOptionPane;
+
+public class JOptionPane {
+
+	public static void main(String[] args) {
+
+	}
+}

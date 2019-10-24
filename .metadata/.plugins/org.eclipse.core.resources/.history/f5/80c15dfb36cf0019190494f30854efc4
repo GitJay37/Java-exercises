@@ -1,0 +1,13 @@
+package Main;
+
+public class Dog {
+	
+	String name, raza;
+	int age;
+	
+	void eat() {}
+	
+	void sleep() {}
+	
+	void bark() {}
+}

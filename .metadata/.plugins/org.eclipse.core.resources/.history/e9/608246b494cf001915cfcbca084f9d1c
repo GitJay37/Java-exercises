@@ -1,0 +1,14 @@
+package Main;
+
+public class UserClass {
+	
+	public String username;
+	
+	public UserClass(String username) {
+		this.username = username;
+	}
+	
+	public class Admin{
+		
+	}
+}

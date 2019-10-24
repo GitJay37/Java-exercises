@@ -1,0 +1,17 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		/* Access modify:
+		
+		*	Default
+		*	Public
+		*	Private
+		*	Protected
+		*/
+		User user = new User();
+		System.out.println(user.username);
+		System.out.println( user.getPass() );
+	}
+}

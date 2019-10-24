@@ -1,0 +1,14 @@
+package Main;
+
+public class Triangle extends Figura {
+	
+	// Las clases hijas se encarganb de definir como se debe hacer algo.
+	
+	private float base;
+	private float height;
+	
+	@Override
+	public float area() {
+		return (base * height)/ 2;
+	}
+}

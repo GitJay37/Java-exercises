@@ -1,0 +1,14 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Sobrecarga de metodos
+		
+		Calc calculator = new Calc();
+		
+		float result = calculator.suma(8, 2.4f);
+		System.out.println("El resultado de la suma es igual a: "+result);
+	}
+
+}

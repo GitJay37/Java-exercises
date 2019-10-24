@@ -1,0 +1,26 @@
+package Main;
+
+public class Dog {
+	
+	String name, raza;
+	int age;
+	
+	// Parameters
+	void setParams(String nameDog, String razaDog, int ageDog) { // Parameters
+		name = nameDog;
+		raza = razaDog;
+		age = ageDog;
+	}
+	
+	void eat() {
+		System.out.println("El perrito está comiendo :)");
+		}
+		
+	void sleep() {
+		System.out.println("El perrito está durmiendo zzz");
+	}
+	
+	void bark() {
+		System.out.println("El perrito está ladrando >:P");
+	}
+}

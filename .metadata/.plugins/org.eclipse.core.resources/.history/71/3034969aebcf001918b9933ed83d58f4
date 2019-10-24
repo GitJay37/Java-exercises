@@ -1,0 +1,15 @@
+package com.google.courses;
+
+public class JavaCourse {
+	
+	private final String title;
+	
+	public JavaCourse() {
+		this.title = "Welcome to the Java Course";
+	}
+	
+	public String getTitle() {
+		return this.title;
+	}	
+
+}

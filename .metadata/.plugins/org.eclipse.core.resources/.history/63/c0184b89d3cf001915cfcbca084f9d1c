@@ -1,0 +1,14 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Clases Abstractas
+		
+		Figura c = new Circle(9f);
+		Figura t = new Triangle(10f, 5f);
+		
+		System.out.println();
+		System.out.println();
+	}
+}

@@ -1,0 +1,21 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Main Class
+		Dog mascota = new Dog(); // Object or instancia
+		// Arguments 
+		mascota.setParams("Yonclin", "French poodle", 1);
+		
+		System.out.println("El nombre de la mascota es: "+mascota.name);
+		System.out.println("La raza de la mascota es: "+ mascota.raza);
+		System.out.println("La edad de la mascota es: "+ mascota.age);
+		
+		System.out.println();
+		
+		mascota.bark();
+		mascota.eat();
+		mascota.sleep();
+	}
+}

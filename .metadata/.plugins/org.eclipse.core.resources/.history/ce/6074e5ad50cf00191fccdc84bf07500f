@@ -1,0 +1,13 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Sobrecarga de metodos
+		
+		Calc calculator = new Calc();
+		
+		int result = calculator.suma(3, 7);
+	}
+
+}

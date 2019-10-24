@@ -1,0 +1,13 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Herencia
+		
+		Pet dog = new Pet("Yonclín", "French poodle", 1);
+		Pet cat = new Pet("Gaturro","Persa", 5);
+
+		mascota.sleep();
+	}
+}

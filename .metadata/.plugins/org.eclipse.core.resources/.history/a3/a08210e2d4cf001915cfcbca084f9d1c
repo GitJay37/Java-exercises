@@ -1,0 +1,11 @@
+package Main;
+
+public class Labrador implements Canino{
+
+	@Override
+	public void eat() {
+		System.out.println("El perro labrador está comiento");
+		
+	}
+	
+}

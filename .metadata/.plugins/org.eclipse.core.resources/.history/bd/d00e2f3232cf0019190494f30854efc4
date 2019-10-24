@@ -1,0 +1,15 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Main Class
+		
+		Dog mascota = new Dog(); // Object or instancia
+		
+		System.out.println("El nombre del la mascota es: "+yonclin.name);
+		System.out.println(" "+yonclin.raza);
+		System.out.println(" "+yonclin.age);
+	}
+
+}

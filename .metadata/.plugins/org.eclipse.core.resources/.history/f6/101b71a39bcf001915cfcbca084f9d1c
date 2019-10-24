@@ -1,0 +1,16 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Herencia
+		
+		Pet pet = new Pet();
+		Dog dog = new Dog("Yonclín", "French poodle", 1);
+		Cat cat = new Cat("Gaturro","Persa", 5);
+		
+		pet.sleep();
+		dog.sleep();
+		cat.sleep();
+	}
+}

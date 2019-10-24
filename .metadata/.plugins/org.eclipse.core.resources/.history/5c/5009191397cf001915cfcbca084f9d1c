@@ -1,0 +1,9 @@
+package Main;
+
+public class Pet {
+	
+	public String name;
+	public String raza;
+	public int age;
+	
+}

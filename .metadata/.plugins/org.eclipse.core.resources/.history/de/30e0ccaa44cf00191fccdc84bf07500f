@@ -1,0 +1,15 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Access modify:
+		
+		User instanceUser = new User();
+		
+		instanceUser.username = "Jay";
+		
+		instanceUser.greet();
+	}
+
+}

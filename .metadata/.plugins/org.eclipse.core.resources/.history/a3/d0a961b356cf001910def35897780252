@@ -1,0 +1,19 @@
+package Main;
+
+public class Calc {
+	
+	//Integers
+	public int suma(int val1, int val2) {
+			return val1 + val2;
+	}
+	
+	//Floats
+	public float suma(float val1, float val2) {
+		return val1 - val2;
+	}
+	
+	//Doubles
+	public double suma(double val1, double val2) {
+		return val1 * val2;
+	}
+}

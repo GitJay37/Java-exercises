@@ -1,0 +1,32 @@
+package Main;
+
+public class Calc {
+	
+	//Integers
+	public int suma(int... numbers) {
+			int suma = 0;
+			System.out.println("Has ingresado "+numbers.length+" valores");
+			for(int number : numbers) {
+				suma += number;
+			}
+			return suma;
+	}
+	
+	//Floats
+	public float suma(float... numbers) {
+		int suma = 0;
+		for(float number : numbers) {
+			suma += number;
+		}
+		return suma;
+	}
+	
+	//Doubles
+	public double suma(double... numbers) {
+		int suma = 0;
+		for(double number : numbers) {
+			suma += number;
+		}
+		return suma;
+}
+}

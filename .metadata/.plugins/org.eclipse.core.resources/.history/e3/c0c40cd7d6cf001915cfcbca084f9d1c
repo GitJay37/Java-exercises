@@ -1,0 +1,6 @@
+package Main;
+
+public interface InterfaceB {
+	
+	public abstract void showMessage();
+}

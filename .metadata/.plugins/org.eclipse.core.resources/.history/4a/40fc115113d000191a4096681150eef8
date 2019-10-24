@@ -1,0 +1,10 @@
+package com.google.clases;
+
+import javax.swing.JOptionPane;
+
+public class MainClassJOp{
+	public s
+	tatic void main(String[] args) {		
+	
+	}
+}

@@ -1,0 +1,16 @@
+package Main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Herencia
+		
+		Pet mascota = new Pet();
+		
+		mascota.setName("Yonclín");
+		String namePet = mascota.getName();
+		
+		System.out.println(namePet);
+	}
+
+}
